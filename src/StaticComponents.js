@@ -2,7 +2,7 @@ import styled from "styled-components";
 const blackColor = "#1c1f28";
 export const ColorCard = styled.div`
   position: absolute;
-  left:180px;
+  left: 180px;
   z-index: 100;
   width: 180px;
   height: 250px;
@@ -10,6 +10,8 @@ export const ColorCard = styled.div`
   flex-direction: column;
   justify-content: space-between;
   padding: 10px;
+  font-size: 12px;
+  font-weight: normal;
   box-sizing: border-box;
   background: #ffffff;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
