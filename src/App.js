@@ -6,7 +6,7 @@ import ContentElement from "./ContentElement";
 function App() {
   return (
     <div
-      style={{ display: "flex", flexDirection: "column",alignSelf:"flex-end"}}
+      style={{ display: "flex", flexDirection: "column",alignItems:"flex-end"}}
     >
       <ContentElement title="Title Text" />
       <ContentElement title="Secondary Text" />
